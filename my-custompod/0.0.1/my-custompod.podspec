@@ -84,7 +84,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/naveen-krv/custom_pod.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/naveen-krv/custom_pod.git", :branch => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
