@@ -83,7 +83,9 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/naveen-krv/customFramework.git", :branch => "0.0.2" }
 
-  spec.dependency 'SVProgressHUD'
+  spec.dependency 'SVProgressHUD', '~> 1.1'
+  #s.dependency 'Alamofire', '~> 4.7'
+
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
