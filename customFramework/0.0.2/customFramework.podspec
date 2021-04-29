@@ -83,7 +83,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/naveen-krv/customFramework.git", :commit => "0b0545a" }
 
-  #spec.dependency 'SVProgressHUD', '~> 1.1'
+  spec.dependency 'SVProgressHUD', '~> 1.1'
   #s.dependency 'Alamofire', '~> 4.7'
 
 
