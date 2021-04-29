@@ -81,9 +81,9 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/naveen-krv/customFramework.git", :commit => "ef80833" }
+  spec.source       = { :git => "https://github.com/naveen-krv/customFramework.git", :commit => "6616abb" }
 
-  #spec.dependency 'SVProgressHUD'
+  spec.dependency 'SVProgressHUD'
   spec.dependency 'Alamofire', '~> 4.7'
   spec.dependency 'MBProgressHUD', '~> 1.1.0'
 
